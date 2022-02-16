@@ -10,6 +10,12 @@ namespace feladat2
     {
         static void Main(string[] args)
         {
+            Random r = new Random();
+            int kocka = r.Next(1, 7);
+            Console.WriteLine(kocka);
+
+            Console.ReadKey();
+            
         }
     }
 }
